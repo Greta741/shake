@@ -1,8 +1,8 @@
 const cacheName = 'shake-pwa';
 const filesToCache = [
-    '/',
-    '/index.html',
-    '/js/main.js'
+    '/shake',
+    '/shake/index.html',
+    '/shake/js/main.js'
 ];
 
 /* Start the service worker and cache all of the app's content */

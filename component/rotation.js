@@ -58,7 +58,7 @@ class ShakyShaky extends HTMLElement {
         this.acl = new LinearAccelerationSensor({ frequency: 60 });
         this.acl.addEventListener("activate", doShakyShaky);
         this.acl.addEventListener("error", () => {
-            // alert('no shaky shaky for you');
+            alert('no shaky shaky for you');
         });
         this.acl.start();
     }

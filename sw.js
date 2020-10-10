@@ -1,6 +1,5 @@
 const cacheName = 'shake-pwa';
 const filesToCache = [
-    '/shake',
     '/shake/index.html',
     '/shake/js/main.js'
 ];

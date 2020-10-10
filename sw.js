@@ -1,7 +1,17 @@
 const cacheName = 'shake-pwa';
 const filesToCache = [
+    '/shake',
     '/shake/index.html',
-    '/shake/js/main.js'
+    '/shake/js/main.js',
+    '/shake/component/rotation.js',
+    '/shake/manifest.json',
+    '/shake/favicon.ico',
+    '/shake/images/hello-icon-128.png',
+    '/shake/images/hello-icon-144.png',
+    '/shake/images/hello-icon-152.png',
+    '/shake/images/hello-icon-192.png',
+    '/shake/images/hello-icon-256.png',
+    '/shake/images/hello-icon-512.png',
 ];
 
 /* Start the service worker and cache all of the app's content */
